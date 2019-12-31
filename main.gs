@@ -25,7 +25,7 @@ function NotifyGmailtoLine(FindSubject) {
         sendLine(strDate,strSubject,strMessage);
  
         // 処理済みのメッセージをスターをつける
-        // myMessages[i][j].star(); 
+        myMessages[i][j].star(); 
       }
     }
   }
